@@ -3,12 +3,7 @@
 ###### jsPDF is very easy for basic PDF files generation
 
 `````
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Hello world</title>
-</head>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
     <script type="text/javascript">
         var pdf = new jsPDF();
@@ -19,7 +14,7 @@
     <h1>Hello world</h1>
     
 </body>
-</html>
+
 `````
 
 
@@ -37,9 +32,6 @@ doc.text('Hello world!', 10, 10)
 doc.save('a4.pdf')
 
 </script>-->
-
-<!DOCTYPE html>
-<html lang="en">
  <script>
 $(document).ready(function (){
                             $('#click').click(function () {
@@ -56,7 +48,7 @@ $(document).ready(function (){
                         });
                         });
 </script>
-</head>
+
 <body id="target" >
      <div id="content">
          <h4>Hello, this is a H4 tag</h4>
